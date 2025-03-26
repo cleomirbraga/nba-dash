@@ -21,7 +21,7 @@ player_stats = df_data[df_data["full_name"] == player].iloc[0]
 st.image(player_stats["players_photo"], width=200)
 st.title(player_stats["full_name"])
 
-st.markdown(f"**Clube:** {player_stats['team']}")
+st.markdown(f"**Franquia:** {player_stats['team']}")
 st.markdown(f"**Posição:** {player_stats['position']}")
 
 col1, col2, col3, col4 = st.columns(4)
