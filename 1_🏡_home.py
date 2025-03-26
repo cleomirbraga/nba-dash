@@ -11,9 +11,7 @@ st.markdown("# NBA 2K DATASET! 🏀")
 st.sidebar.markdown("Desenvolvido por Cleomir Braga")
 
 
-#btn = st.button("Acesse os dados no Kaggle")
-#if btn:
- #   webbrowser.open_new_tab("https://www.kaggle.com/datasets/cleomirbraga/base-de-dados-nba-2k")
+st.link_button("Acesse os dados no Kaggle", "https://www.kaggle.com/datasets/cleomirbraga/base-de-dados-nba-2k")
 
 st.markdown(
     """
